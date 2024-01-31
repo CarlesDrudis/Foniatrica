@@ -1,0 +1,1018 @@
+.layoutBase-grid[data-v-37fdbc8c] {
+  display: grid;
+  grid-template-areas: "logo title menu" "content content content";
+  grid-template-columns: 160px 360px auto;
+  grid-template-rows: 75px auto;
+  min-height: 100%;
+}
+.layoutBase-logo[data-v-37fdbc8c] {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.layoutBase-title[data-v-37fdbc8c] {
+  grid-area: title;
+  padding: 5px 20px 0 20px;
+  max-height: 85px;
+  margin: 0;
+  overflow: hidden;
+}
+.layoutBase-appTitle[data-v-37fdbc8c] {
+  font-size: 20px;
+  color: var(--theme-primary, #0078d4);
+}
+.layoutBase-subtitle[data-v-37fdbc8c] {
+  padding-top: 0px;
+  margin-top: -6px;
+  font-size: 18px;
+  color: var(--theme-secondary, #2b88d8);
+}
+.layoutBase-menu[data-v-37fdbc8c] {
+  grid-area: menu;
+  max-height: 100px;
+  width: 95%;
+}
+.layoutBase-content[data-v-37fdbc8c] {
+  position: relative;
+  grid-area: content;
+  border-top: 2px solid var(--theme-primary, #0078d4);
+}
+
+.layoutListItem-container[data-v-f73b1a8e] {
+  padding: 10px;
+}
+.layoutListItem-left[data-v-f73b1a8e] {
+  margin: 0 0 auto 0;
+}
+.layoutListItem-center[data-v-f73b1a8e] {
+  margin: 0 auto;
+}
+.layoutListItem-right[data-v-f73b1a8e] {
+  margin: 0 0 0 auto;
+}
+.layoutListItem-actions[data-v-f73b1a8e] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.layoutListItem-button[data-v-f73b1a8e] {
+  margin: 10px 5px;
+}
+.layoutListItem-alertButton[data-v-f73b1a8e] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+div[data-v-3f173500] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-3f173500] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-3f173500] {
+  justify-content: center;
+}
+.fura-right div[data-v-3f173500] {
+  justify-content: flex-end;
+}
+div .detailsCellBoolean-true[data-v-3f173500] {
+  color: var(--theme-primary, #0078d4);
+  font-size: 16px;
+  font-weight: 600;
+}
+div .detailsCellBoolean-false[data-v-3f173500] {
+  color: var(--neutral-quaternary, #d2d0ce);
+  font-size: 16px;
+}
+
+div[data-v-8d28af88] {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px 0;
+}
+div.formFieldBoolean-left[data-v-8d28af88] {
+  justify-content: flex-start;
+}
+div.formFieldBoolean-center[data-v-8d28af88] {
+  justify-content: center;
+}
+div.formFieldBoolean-right[data-v-8d28af88] {
+  justify-content: flex-end;
+}
+
+div[data-v-1198e7f8] {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px 0;
+}
+
+div[data-v-29f5092a] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-29f5092a] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-29f5092a] {
+  justify-content: center;
+}
+.fura-right div[data-v-29f5092a] {
+  justify-content: flex-end;
+}
+
+.field[data-v-ce6a5b82] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-1980b3b4] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-3c8d511f] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-e6e02e5c] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-543d71e4] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-bccf8768] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-683903ff] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-754a3117] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-794c5b06] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-1878bbd0] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+
+.fura-label[data-v-3d9f2e85] {
+  display:none;
+}
+.CONFIG-editItem-layout[data-v-3d9f2e85] {
+ display: grid;
+  margin: 0 auto;
+  grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 13%;
+  grid-column-gap: 8px;
+  grid-template-areas:
+    "NOM_CONSULTA  NOM_CONSULTA   NOM_CONSULTA    NOM_CONSULTA   NOM_CONSULTA   NOM_CONSULTA    NOM_CONSULTA      NIF"
+    "ADRECA        ADRECA         ADRECA          ADRECA         ADRECA         ADRECA          ADRECA            COLLEGIAT"
+    "POBLACIO      POBLACIO       POBLACIO        POBLACIO       TIPUSIRPF      ID_PLANTILLA    ID_PLANTILLA      ID_FORMAPAGAMENT"
+    "MARGES        MARGE          FUNDA           ENBLANC        ADULT          INFANTIL        CONTINUACIO       COMPROVANT"
+    "SUPERIOR      MARGE_TOP      FUNDA_TOP       ENBLANC_TOP    ADULT_TOP      INFANTIL_TOP    CONTINUACIO_TOP   COMPROVANT_TOP"
+    "ESQUERRA      MARGE_LEFT     FUNDA_LEFT      ENBLANC_LEFT   ADULT_LEFT     INFANTIL_LEFT   CONTINUACIO_LEFT  COMPROVANT_LEFT"
+    "HISTORIA      .              FUNDA_HISTORIA  .              .              .               .                 ."
+    "INFERIOR      .              FUNDA_INFERIOR  .              .              .               .                 .";
+}
+
+.ESPECIALISTA-editItem-layout {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1110px;
+  grid-template-columns: 10% 25% 15% 15% 10% 10% 10%;
+  grid-column-gap: 8px;
+  grid-template-areas:
+    "ID_TRACTAMENT  NOM         NOM         COGNOMS      COGNOMS      TIPUS              COLLEGIAT"
+    "ADRECA       ADRECA      ADRECA      TELEFON1      TELEFON2      FAX               NIF"
+    "CODIPOSTAL    POBLACIO      POBLACIO      EMAIL          EMAIL          ID_ESPECIALITAT   ID_ESPECIALITAT"
+    "PAIS            PAIS           PAIS           EMAIL2         EMAIL2         SUBESPECIALITAT   SUBESPECIALITAT"
+    "OBSERVACIONS   OBSERVACIONS  OBSERVACIONS  OBSERVACIONS  OBSERVACIONS  OBSERVACIONS     OBSERVACIONS"
+    "errorMessage    errorMessage   errorMessage   errorMessage   errorMessage   errorMessage      errorMessage";
+}
+
+.MUTUA-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "NOM             NOM             NOM            TELEFON1           NIF"
+      "NOM2            NOM2            NOM2           TELEFON2           FAX"
+      "ADRECA          ADRECA          ADRECA         .                  ."
+      "CODIPOSTAL      POBLACIO        POBLACIO       .                  CATALA"
+      "CONTACTE        CONTACTE        CONTACTE       EMAIL              EMAIL"
+      "CONCEPTE1       CONCEPTE1       CONCEPTE1      IMPORT1_1VISITA    IMPORT1_2VISITA"
+      "CONCEPTE2       CONCEPTE2       CONCEPTE2      IMPORT2_1VISITA    IMPORT2_2VISITA"
+      "CONCEPTE3       CONCEPTE3       CONCEPTE3      IMPORT3_1VISITA    IMPORT3_2VISITA"
+      "CONCEPTE4       CONCEPTE4       CONCEPTE4      IMPORT4_1VISITA    IMPORT4_2VISITA"
+      "CONCEPTE5       CONCEPTE5       CONCEPTE5      IMPORT5_1VISITA    IMPORT5_2VISITA"
+      "errorMessage    errorMessage    errorMessage   errorMessage       errorMessage";
+  }
+.PACIENT-editItem-layout {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 16% 25% 27% 18% 12%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_TRACTAMENT   NOM            COGNOMS       COGNOMS       TELEFON1      ID_DOCTOR"
+    "ADRECA          ADRECA         ADRECA        ADRECA        PROFESSIO     PROFESSIO"
+    "CODIPOSTAL      POBLACIO       POBLACIO      POBLACIO      TELEFON2      NIF"
+    "PAIS            EMAIL          EMAIL         EMAIL         EMAIL2        EMAIL2"
+    "ID_MUTUA        ID_MUTUA       ID_MUTUA      ID_MUTUA      SEXE          NAIXEMENT"
+    "TIPUSENVIAT     ENVIATPER      ENVIATPER     ID_PLANTILLA  HISTORIA      ID_FORMAPAGAMENT"
+    "MICROCIRUGIA    COMPORTVOCAL   MDVP          CURS          .             CATALA"
+    "errorMessage    errorMessage   errorMessage  errorMessage  errorMessage  errorMessage";
+}
+
+.PLANTILLA-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1100px;
+    grid-template-columns: 60% 18% 18%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "NOM_PLANTILLA   .                  ."
+      "CONCEPTE1       IMPORT1_1VISITA    IMPORT1_2VISITA"
+      "CONCEPTE2       IMPORT2_1VISITA    IMPORT2_2VISITA"
+      "CONCEPTE3       IMPORT3_1VISITA    IMPORT3_2VISITA"
+      "CONCEPTE4       IMPORT4_1VISITA    IMPORT4_2VISITA"
+      "CONCEPTE5       IMPORT5_1VISITA    IMPORT5_2VISITA"
+      "errorMessage    errorMessage       errorMessage";
+  }
+.USUARI-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 810px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "LOGIN_USUARI   COGNOMSINOM_USUARI  COGNOMSINOM_USUARI    ROL"
+      ".               EMAIL_USUARI             EMAIL_USUARI               EMAIL_USUARI"
+      "errorMessage    errorMessage              errorMessage                errorMessage"
+  }
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left  {
+  justify-content: flex-start;
+}
+.fura-center  {
+  justify-content: center;
+}
+
+.VISITA-editItem-layout {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 15% 15% 12% 12% 12% 12% 12% 12%;
+  grid-column-gap: 8px;
+  grid-template-areas:
+    "ID_PACIENT     ID_PACIENT     NOTA           NOTA           DATA           ID_DOCTOR      ID_INICI           ID_FINAL       "
+    "ID_MUTUA       ID_MUTUA       AUTORITZACIO   AUTORITZACIO   TIPUSVISITA    ID_PLANTILLA   ID_PLANTILLA       ."
+    "CONCEPTE1      CONCEPTE1      CONCEPTE1      CONCEPTE1      CONCEPTE1      CONCEPTE1      CONCEPTE1          IMPORT1"
+    "CONCEPTE2      CONCEPTE2      CONCEPTE2      CONCEPTE2      CONCEPTE2      CONCEPTE2      CONCEPTE2          IMPORT2"
+    "CONCEPTE3      CONCEPTE3      CONCEPTE3      CONCEPTE3      CONCEPTE3      CONCEPTE3      CONCEPTE3          IMPORT3"
+    "CONCEPTE4      CONCEPTE4      CONCEPTE4      CONCEPTE4      CONCEPTE4      CONCEPTE4      CONCEPTE4          IMPORT4"
+    "CONCEPTE5      CONCEPTE5      CONCEPTE5      CONCEPTE5      CONCEPTE5      CONCEPTE5      CONCEPTE5          IMPORT5"
+    "ID_TAG         ID_TAG         ID_TAG         ID_TAG         .              .              .                  IMPORT"
+    "TIPUSENVIAT    ENVIATPER      ENVIATPER      ENVIATPER      MOBIL          TIPUSIRPF      IRPF               NET"
+    "KAYSTROBE      KAYSTROBE      KDS            KDS            ARXIU          ARXIU          ID_FORMAPAGAMENT1  PAGAT1"
+    ".              .              NOFACTURAR     NOFACTURAR     CATALA         CATALA         ID_FORMAPAGAMENT2  PAGAT2"
+    "errorMessage   errorMessage   errorMessage   errorMessage   errorMessage   errorMessage   errorMessage       errorMessage";
+}
+.VISITA-FACTURA-editItem-layout {
+  display: grid;
+  grid-template-columns: 35% 7% 33% 12% 12%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "NOM_FACTURA    NOM2_FACTURA         NOM2_FACTURA       FACTURA        DATA_FACTURA"
+    "ADRECA_FACTURA CODIPOSTAL_FACTURA   POBLACIO_FACTURA   .              NIF_FACTURA"
+    "errorMessage   errorMessage         errorMessage       errorMessage   errorMessage";
+}
+
+
+.detailsViewSelect-navTop[data-v-4facc968] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.detailsViewSelect-navBottom[data-v-4facc968] {
+  display: flex;
+  flex-direction: column;
+}
+.detailsViewSelect-navigation[data-v-4facc968] {
+  display: flex;
+}
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-4facc968] {
+  justify-content: flex-start;
+}
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-4facc968] {
+  justify-content: center;
+}
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-4facc968] {
+  justify-content: flex-end;
+}
+
+.menuContextual[data-v-138761e4] {
+  position: absolute;
+}
+.menuContextual.overloaded[data-v-138761e4] {
+  transform: translateX(-100%);
+}
+
+.layoutDetails-commandBar[data-v-463b210f] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme-primary, #0078d4);
+}
+.layoutDetails-contextualManu[data-v-463b210f] {
+  position: absolute;
+}
+.layoutDetails-contextualManu.overloaded[data-v-463b210f] {
+  transform: translateX(-100%);
+}
+.layoutDetails-totals[data-v-463b210f] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+  font-weight: 600;
+  background-color: var(--neutral-lighter, #f3f2f1);
+}
+.fura-left .layoutDetails-totals[data-v-463b210f] {
+  justify-content: flex-start;
+}
+.fura-center .layoutDetails-totals[data-v-463b210f] {
+  justify-content: center;
+}
+.fura-right .layoutDetails-totals[data-v-463b210f] {
+  justify-content: flex-end;
+}
+
+
+.dictionaryItemEdit-overlay[data-v-1b60de7a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dictionaryItemEdit-dialog[data-v-1b60de7a] {
+  min-width: 500px;
+  overflow-y: visible;
+}
+
+
+.modalOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDialog {
+    min-width: 500px;
+}
+.dialogFooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dialogFooter button {
+    margin: 5px;
+}
+
+
+.listDetailsDefault-overlay[data-v-0871c081] {
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listDetailsDefault-dialog[data-v-0871c081] {
+  min-width: 250px;
+}
+.listDetailsDefault-buttons[data-v-0871c081] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.detailsGrid[data-v-3c346872] {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  width: 100%;
+  table-layout: fixed;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--neutral-primary, var(--neutral-primary, #323130));
+  background: var(--white, var(--white, #ffffff));
+  border-collapse: collapse;
+  border-color: var(--neutral-light, var(--neutral-light, #edebe9));
+  position: relative;
+}
+.detailsGrid tr[data-v-3c346872] {
+  height: 42px;
+}
+.detailsGrid thead tr[data-v-3c346872],
+.detailsGrid tbody tr[data-v-3c346872]:last-of-type {
+  border-bottom: 1px solid var(--neutral-light, var(--neutral-light, #edebe9));
+}
+.detailsGrid tbody tr[data-v-3c346872]:first-of-type {
+  vertical-align: top;
+}
+.detailsGrid tbody tr:first-of-type td[data-v-3c346872] {
+  padding-top: 5px;
+  height: calc(100% - 5px);
+}
+.detailsGrid tbody[data-v-3c346872]:hover {
+  background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
+}
+.detailsGrid tbody td[data-v-3c346872] {
+  height: 42px;
+}
+.detailsGrid-headerCell[data-v-3c346872]:hover {
+  background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
+}
+.detailsGrid-headerTitle[data-v-3c346872] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+  user-select: none;
+  display: flex;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-3c346872] {
+  padding-left: 4px;
+}
+.fura-stickyHeader thead th[data-v-3c346872] {
+  position: sticky;
+  top: var(--21b4a0e4);
+  background: var(--white, var(--white, #ffffff));
+  z-index: 1;
+}
+
+.layoutListGrid-commandBar[data-v-7472afbe] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme-primary, #0078d4);
+}
+.layoutListGrid-details[data-v-7472afbe] .fura-headerTitle {
+  cursor: unset;
+}
+.layoutListGrid-details[data-v-7472afbe] .fura-data td {
+  vertical-align: top;
+}
+.layoutListGrid-navTop[data-v-7472afbe] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.layoutListGrid-navBottom[data-v-7472afbe] {
+  display: flex;
+  flex-direction: column;
+}
+.layoutListGrid-navigation[data-v-7472afbe] {
+  display: flex;
+}
+.layoutListGrid-navigation.layoutListGrid-left[data-v-7472afbe] {
+  justify-content: flex-start;
+}
+.layoutListGrid-navigation.layoutListGrid-center[data-v-7472afbe] {
+  justify-content: center;
+}
+.layoutListGrid-navigation.layoutListGrid-right[data-v-7472afbe] {
+  justify-content: flex-end;
+}
+.layoutListGrid-cellActions[data-v-7472afbe] {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filterForm-checkbox[data-v-3a975916] {
+  margin: 10px 0;
+}
+.filterForm-multiple[data-v-3a975916] {
+  display: flex;
+  justify-content: space-between;
+}
+.filterForm-multiple > div[data-v-3a975916] {
+  flex: 1 1 0px;
+}
+.filterForm-multiple > div[data-v-3a975916]:not(:first-child) {
+  margin-left: 5px;
+}
+.filterForm-multiple > div[data-v-3a975916]:not(:last-child) {
+  margin-right: 5px;
+}
+
+.filterGroups[data-v-a75f6888] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  user-select: none;
+}
+.filterGroups .item .title[data-v-a75f6888] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  height: 44px;
+  margin: 5px 0px;
+  padding-left: 28px;
+  outline: transparent;
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+  text-align: left;
+  line-height: 44px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--neutral-primary, var(--neutral-primary, #323130));
+  background-color: transparent;
+}
+.filterGroups .item .content[data-v-a75f6888] {
+  display: none;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.filterGroups .item .expanderIcon[data-v-a75f6888] {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  left: 8px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  transition: transform 0.1s linear 0s;
+}
+.filterGroups .item.expanded .content[data-v-a75f6888] {
+  display: block;
+}
+.filterGroups .item.expanded .expanderIcon[data-v-a75f6888] {
+  transform: rotate(-180deg);
+}
+.actions[data-v-a75f6888] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.actions > button[data-v-a75f6888] {
+  margin: 10px 5px;
+}
+.clearFilter[data-v-a75f6888] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+.listExport-overlay[data-v-392e43be] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listExport-dialog[data-v-392e43be] {
+  min-width: 250px;
+}
+.dialogAlert-close[data-v-392e43be] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.dialogAlert-close > *[data-v-392e43be] {
+  margin: 0 5px;
+}
+
+.list-view-fields[data-v-33ad7bc8] {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  margin: 6px 0;
+}
+.list-view-field[data-v-33ad7bc8] {
+  flex: 100% 1 1;
+}
+.list-view-orderBy[data-v-33ad7bc8] {
+  flex: 125px 0 0;
+  margin-left: 15px;
+}
+.list-view-aggregate[data-v-33ad7bc8] {
+  flex: 125px 0 0;
+  margin-left: 15px;
+}
+
+
+.baseLayout[data-v-42048c76] .baseLayout-content {
+  display: flex;
+  justify-content: center;
+}
+.layout[data-v-42048c76] {
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-areas:
+    'error error error'
+    'separatorColumnes . separatorLlista'
+    'fields . name'
+    'fields . viewOptions'
+    'fields . .'
+    'actions actions actions';
+  grid-template-columns: 7fr 30px 4fr;
+  grid-template-rows: 30px 40px 100px 100px auto 50px;
+  margin: 0 auto;
+}
+.separatorLlista[data-v-42048c76] {
+  grid-area: separatorLlista;
+}
+.separatorColumnes[data-v-42048c76] {
+  grid-area: separatorColumnes;
+}
+.name[data-v-42048c76] {
+  grid-area: name;
+}
+.viewOptions[data-v-42048c76] {
+  grid-area: viewOptions;
+}
+.viewOptions > label[data-v-42048c76] {
+  margin-top: 20px;
+}
+.fields[data-v-42048c76] {
+  grid-area: fields;
+}
+.actions[data-v-42048c76] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.errorMessage[data-v-42048c76] {
+  grid-area: error;
+}
+.actions > button[data-v-42048c76] {
+  margin: 10px 5px;
+}
+.remove[data-v-42048c76] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+
+.itemListEdit-container[data-v-e1f6c376] .baseLayout-content {
+  padding: 10px;
+  max-width: calc(100% - 20px);
+}
+
+
+.listItemEditTabChild-overlay[data-v-5697d378] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listItemEditTabChild-dialog[data-v-5697d378] {
+  min-width: 250px;
+  overflow: visible;
+  width: 100%;
+  max-width: var(--4c00a527);
+}
+.listItemEditTabChild-actions[data-v-5697d378] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.listItemEditTabChild-actions > button[data-v-5697d378] {
+  margin: 10px 5px;
+}
+.listItemEditTabChild-remove[data-v-5697d378] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+
+.modalOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDialog {
+    min-width: 500px;
+}
+.dialogFooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dialogFooter button {
+    margin: 5px;
+}
+
+
+.itemListEdit-container[data-v-a1813330] .baseLayout-content {
+  padding: 10px;
+  max-width: calc(100% - 20px);
+}
+
+.layout[data-v-6fd09a82] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-6fd09a82] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-6fd09a82] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-6fd09a82] {
+  width: 300px;
+}
+.buttons[data-v-6fd09a82] {
+  margin-top: 25px;
+}
+.recovery[data-v-6fd09a82] {
+  margin-top: 10px;
+}
+
+.layout[data-v-b0180da2] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-b0180da2] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-b0180da2] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-b0180da2] {
+  width: 300px;
+}
+.buttons[data-v-b0180da2] {
+  margin-top: 25px;
+}
+
+.layout[data-v-833874ce] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-833874ce] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-833874ce] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-833874ce] {
+  width: 300px;
+}
+.buttons[data-v-833874ce] {
+  margin-top: 25px;
+}
+
+.layout[data-v-b4240742] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-b4240742] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-b4240742] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-b4240742] {
+  width: 300px;
+}
+.buttons[data-v-b4240742] {
+  margin-top: 25px;
+}
+.recovery[data-v-b4240742] {
+  margin-top: 10px;
+}
+
+
+.notFound-overlay[data-v-5023a390] {
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notFound-dialog[data-v-5023a390] {
+  min-width: 250px;
+}
+.notFound-buttons[data-v-5023a390] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.notFound-buttons > button[data-v-5023a390] {
+  margin: 10px 5px;
+}
+
+.facturar-layout {
+  display: grid;
+  margin: 0 auto;
+  max-width: 600px;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 12px;
+  grid-template-areas: "labelFormaPagament  labelImport" "ID_FORMAPAGAMENT1   PAGAT1" "ID_FORMAPAGAMENT2   PAGAT2" "labelNeto           NET" "CATALA              ." "FACTURAR            CANCELAR";
+}
+
+.RESUM_MUTUA {
+  display: grid;
+  margin: auto;
+  max-width: 1000px;
+  grid-template-columns: 160px 200px 120px 120px 120px 100px 160px;
+  grid-column-gap: 6px;
+  grid-template-areas: "-         ID_MUTUA  ID_MUTUA  INICI     FINAL     CERCA     ." ".         .         .         .         .         .         ." "FACTURES  FACTURES  FACTURES  FACTURES  FACTURES  FACTURES  FACTURES" ".         .         IMPRIMIR  TORNAR    .         .         .";
+}
+.comptador {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 14px;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.boto {
+  height: 24px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+
+.dialogLoading-overlay[data-v-69be9a34] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogLoading-loading[data-v-69be9a34] {
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.dialogAlert-overlay[data-v-69b9f90a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogAlert-dialog[data-v-69b9f90a] {
+  min-width: 250px;
+}
+.dialogAlert-close[data-v-69b9f90a] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dialogConfirm-overlay[data-v-0cb2bae0] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogConfirm-dialog[data-v-0cb2bae0] {
+  min-width: 250px;
+}
+.dialogConfirm-close[data-v-0cb2bae0] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.dialogConfirm-close > button[data-v-0cb2bae0] {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+html, body, #app {
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.avaluacioInvalid {
+    --white: #fcbcbc!important;
+    --neutral-lighter: #fcbcbc!important;
+}
+.avaluacioValid {
+    --white: #adfac0!important;
+    --neutral-lighter :#adfac0!important;
+}
+.ocupada {
+    color:red
+}
+
