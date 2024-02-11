@@ -147,6 +147,26 @@ div[data-v-29f5092a] {
   right: 0px !important;
 }
 
+div[data-v-d1615be0] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-d1615be0] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-d1615be0] {
+  justify-content: center;
+}
+.fura-right div[data-v-d1615be0] {
+  justify-content: flex-end;
+}
+
 .field[data-v-1980b3b4] .fura-elementWrapper::after {
   right: 0px !important;
 }
@@ -164,6 +184,10 @@ div[data-v-29f5092a] {
 }
 
 .field[data-v-bccf8768] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-7d8388f4] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -249,7 +273,8 @@ div[data-v-29f5092a] {
     "PAIS            EMAIL          EMAIL         EMAIL         EMAIL2        EMAIL2"
     "ID_MUTUA        ID_MUTUA       ID_MUTUA      ID_MUTUA      SEXE          NAIXEMENT"
     "TIPUSENVIAT     ENVIATPER      ENVIATPER     ID_PLANTILLA  HISTORIA      ID_FORMAPAGAMENT"
-    "MICROCIRUGIA    COMPORTVOCAL   MDVP          CURS          .             CATALA"
+    "MICROCIRUGIA    COMPORTVOCAL   MDVP          CURS          .             PRIMERA_VISITA"
+    ".               .              .             CATALA        CATALA        ULTIMA_VISITA"
     "errorMessage    errorMessage   errorMessage  errorMessage  errorMessage  errorMessage";
 }
 
@@ -325,24 +350,24 @@ div[data-v-29f5092a] {
 }
 
 
-.detailsViewSelect-navTop[data-v-4facc968] {
+.detailsViewSelect-navTop[data-v-6f052fc2] {
   display: flex;
   flex-direction: column-reverse;
 }
-.detailsViewSelect-navBottom[data-v-4facc968] {
+.detailsViewSelect-navBottom[data-v-6f052fc2] {
   display: flex;
   flex-direction: column;
 }
-.detailsViewSelect-navigation[data-v-4facc968] {
+.detailsViewSelect-navigation[data-v-6f052fc2] {
   display: flex;
 }
-.detailsViewSelect-navigation.detailsViewSelect-left[data-v-4facc968] {
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-6f052fc2] {
   justify-content: flex-start;
 }
-.detailsViewSelect-navigation.detailsViewSelect-center[data-v-4facc968] {
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-6f052fc2] {
   justify-content: center;
 }
-.detailsViewSelect-navigation.detailsViewSelect-right[data-v-4facc968] {
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-6f052fc2] {
   justify-content: flex-end;
 }
 
@@ -552,13 +577,13 @@ div[data-v-29f5092a] {
   margin-right: 5px;
 }
 
-.filterGroups[data-v-a75f6888] {
+.filterGroups[data-v-51a6530d] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   user-select: none;
 }
-.filterGroups .item .title[data-v-a75f6888] {
+.filterGroups .item .title[data-v-51a6530d] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -581,12 +606,12 @@ div[data-v-29f5092a] {
   color: var(--neutral-primary, var(--neutral-primary, #323130));
   background-color: transparent;
 }
-.filterGroups .item .content[data-v-a75f6888] {
+.filterGroups .item .content[data-v-51a6530d] {
   display: none;
   margin-bottom: 40px;
   padding-left: 20px;
 }
-.filterGroups .item .expanderIcon[data-v-a75f6888] {
+.filterGroups .item .expanderIcon[data-v-51a6530d] {
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -597,21 +622,21 @@ div[data-v-29f5092a] {
   font-size: 12px;
   transition: transform 0.1s linear 0s;
 }
-.filterGroups .item.expanded .content[data-v-a75f6888] {
+.filterGroups .item.expanded .content[data-v-51a6530d] {
   display: block;
 }
-.filterGroups .item.expanded .expanderIcon[data-v-a75f6888] {
+.filterGroups .item.expanded .expanderIcon[data-v-51a6530d] {
   transform: rotate(-180deg);
 }
-.actions[data-v-a75f6888] {
+.actions[data-v-51a6530d] {
   grid-area: actions;
   display: flex;
   justify-content: center;
 }
-.actions > button[data-v-a75f6888] {
+.actions > button[data-v-51a6530d] {
   margin: 10px 5px;
 }
-.clearFilter[data-v-a75f6888] {
+.clearFilter[data-v-51a6530d] {
   --theme-dark: #b00c1a;
   --theme-dark-alt: #d10f1f;
   --theme-darker: #820913;
